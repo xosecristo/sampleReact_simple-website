@@ -1,5 +1,17 @@
 section{
-    height: 90vh;
-    /* width: 80%; */
-    background-color: #fcfcfc;
+    display: flex;
+    align-items: center;
+}
+.hero{
+    width: 40%;
+    margin-left: 15vh;
+}
+.hero h1{
+    font-size: 3rem;
+}
+.hero p{
+    font-size: 1.2rem;
+}
+.hero h1, .hero p{
+    margin-bottom: 1.25rem;
 }

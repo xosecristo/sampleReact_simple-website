@@ -1,14 +1,10 @@
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-a{
-    text-decoration: none;
-    color:inherit;
-}
 header{
-    min-height: 10vh;
-    width: 80%;
+    min-height: 12vh;
+    padding: 0 15vh;
     margin: auto;
+    
+    background: black;
+    color:white;
 }
 header, ul{
     display: flex;
@@ -24,5 +20,14 @@ li{
 
 }
 #logo, .here{
-    font-weight: bold;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+    header{
+        padding: 0 7.5vh;
+    }
+    nav{
+        display: none;
+    }
 }

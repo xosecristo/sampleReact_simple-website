@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const About = () => {
+export const Cards = () => {
     return (
         <section>
-            <h1>Abobobbout</h1>
+            <h1>cardrdrdrdrds</h1>
         </section>
     )
 }

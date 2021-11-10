@@ -1,0 +1,22 @@
+footer{
+    min-height: 8vh;
+    padding: 0 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    background: black;
+    color: #fff;
+}
+footer span{
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 700px) {
+    footer{
+        padding: 1rem 7.5vh;
+    }
+    span{
+        display: none;
+    }
+}
