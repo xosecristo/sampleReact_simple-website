@@ -1,21 +1,14 @@
 import React from 'react'
-import '../Styles/Home.css'
-
-import { Link } from 'react-router-dom'
+import { Hero } from '../components/Hero'
 
 export const Home = () => {
     return (
-        <section>
-            <div className='hero'>
-                <h1>title</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Unde quidem totam, dolores ratione odit velit.</p>
-                <Link to='/Cards'>
-                    <button>
-                        call to action
-                    </button>
-                </Link>
-            </div>
+        <section id="home">
+            <Hero
+                title='H1 Title'
+                text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores voluptas consectetur unde illum incidunt doloribus."
+                path="/cards"
+                cta="Call to action" />
         </section>
     )
 }

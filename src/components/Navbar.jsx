@@ -12,7 +12,7 @@ export const Navbar = () => {
             <nav>
                 <ul>
                     <li><Link to='/' className="here">Here</Link></li>
-                    <li><Link to='/Cards'>Link</Link></li>
+                    <li><Link to='/Cards'>Cards</Link></li>
                     <li><Link to='/About'>About</Link></li>
                     {/* <li><Link to='/'>Link</Link></li> */}
                 </ul>

@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer>
             <Link to='/'>Company Name © 2022</Link>
-            <span>email@company.com</span>
+            <a className="email" href="mailto:email@company.com" rel="noreferrer">email@company.com</a>
         </footer>
     )
 }

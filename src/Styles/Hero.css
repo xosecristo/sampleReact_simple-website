@@ -1,0 +1,28 @@
+.hero{
+    width: 40vw;
+    margin-left: 15vw;
+}
+.hero h1{
+    font-size: 3rem;
+}
+.hero p{
+    font-size: 1.2rem;
+}
+.hero h1, .hero p{
+    margin-bottom: 1.25rem;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .hero{
+        width: 100vw;
+        margin-left: 7.5vw;
+    }
+    .hero h1{
+        font-size: 2.5rem;
+    }
+    .hero p{
+        font-size: 1rem;
+    }
+
+}

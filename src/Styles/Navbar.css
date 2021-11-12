@@ -1,6 +1,6 @@
 header{
     min-height: 12vh;
-    padding: 0 15vh;
+    padding: 0 15vw;
     margin: auto;
     
     background: black;
@@ -25,7 +25,7 @@ li{
 
 @media screen and (max-width: 700px) {
     header{
-        padding: 0 7.5vh;
+        padding: 0 7.5vw;
     }
     nav{
         display: none;

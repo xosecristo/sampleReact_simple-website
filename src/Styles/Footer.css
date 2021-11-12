@@ -1,6 +1,6 @@
 footer{
     min-height: 8vh;
-    padding: 0 15vh;
+    padding: 0 15vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,15 +8,15 @@ footer{
     background: black;
     color: #fff;
 }
-footer span{
+footer a{
     font-weight: 400;
 }
 
 @media only screen and (max-width: 700px) {
     footer{
-        padding: 1rem 7.5vh;
+        padding: 0 7.5vw;
     }
-    span{
+    .email{
         display: none;
     }
 }
