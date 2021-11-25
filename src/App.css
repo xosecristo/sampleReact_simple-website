@@ -16,6 +16,14 @@ section{
 #home{
   /* background: url("../media/kristin-wilson-E7LvQxNw-rE-unsplash.jpg") 10%; */
 }
+#about{
+  display: flex;
+}
+#about img{
+  width: 25rem;
+  height: auto;
+  margin-left: 5rem;
+}
 #cards{
   flex-direction: column;
 }
