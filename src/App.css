@@ -19,6 +19,10 @@ section{
 #about{
   display: flex;
 }
+#about div{
+  width: 45%;
+  margin-left: 15vw;
+}
 #about img{
   width: 25rem;
   height: auto;
